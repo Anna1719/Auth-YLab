@@ -14,7 +14,7 @@
   border-radius: 30px;
   display: flex;
   flex-direction:column;
-  max-width: 400px;
+  max-width: 380px;
   min-height: 100%;
   border: 3px solid #1c521e;
 }
@@ -31,8 +31,8 @@
   color: #650124a2;
 }
 
-.email_wrapper,
-.pass_wrapper {
+.input_wrapper {
+  min-width: 308px;
   margin-bottom: 20px;
   display: flex;
   flex-direction: column;
