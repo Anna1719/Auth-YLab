@@ -58,12 +58,14 @@
   cursor: pointer;
   transition: border-color 0.25s;
 }
+
 .button_submit:hover {
   border-color: #650124a2;
 }
 
-.email_form,
-.password_form {
+.input {
+  margin-top: 5px;
+  padding: 8px;
   border-radius: 8px;
   border: 2px solid #1c521e;
   min-height: 35px;
